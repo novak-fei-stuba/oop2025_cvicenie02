@@ -9,6 +9,10 @@ public class Rectangle {
         final char BOTTOM_RIGHT = '\u2518';
 //        final char  = '';
 
+        if (width < 2 || height < 2 ) {
+            return;
+        }
+
         System.out.print(TOP_LEFT);
         for (int i = 0; i < width - 2; i ++) {
             System.out.print(HORIZONTAL);
