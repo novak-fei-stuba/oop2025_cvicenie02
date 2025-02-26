@@ -1,5 +1,9 @@
 # obdlznik
 
+## format suboru
+
+markdown
+
 ## o projekte
 
 Program vykresluje obdlzniky do textove konzoly
