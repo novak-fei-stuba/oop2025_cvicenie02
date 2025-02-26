@@ -7,9 +7,23 @@ public class Rectangle {
         final char VERTICAL = '\u2502';
         final char BOTTOM_LEFF = '\u2514';
         final char BOTTOM_RIGHT = '\u2518';
-//        final char  = '';
+        final char SQUARE = '\u25A1';
 
-        if (width < 2 || height < 2 ) {
+        if (width == 1 && height == 1) {
+            System.out.println(SQUARE);
+            return;
+        }
+        if (height == 1 ) {
+            for (int i = 0; i < width; i++) {
+                System.out.print(HORIZONTAL);
+            }
+            System.out.println();
+            return;
+        }
+        if (width == 1) {
+            for (int i = 0; i < height; i++) {
+                System.out.println(VERTICAL);
+            }
             return;
         }
 

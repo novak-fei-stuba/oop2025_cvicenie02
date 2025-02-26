@@ -12,3 +12,5 @@ Program vykresluje obdlzniky do textove konzoly
 // volanie
 Rectangle.print(10, 5);
 ```
+
+oprava vykonana este raz po cviku
