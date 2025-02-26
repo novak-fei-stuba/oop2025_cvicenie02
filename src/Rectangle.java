@@ -9,6 +9,9 @@ public class Rectangle {
         final char BOTTOM_RIGHT = '\u2518';
         final char SQUARE = '\u25A1';
 
+        if (width == 0 || height == 0) {
+            return;
+        }
         if (width == 1 && height == 1) {
             System.out.println(SQUARE);
             return;
